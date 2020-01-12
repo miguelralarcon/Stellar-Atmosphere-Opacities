@@ -1,0 +1,28 @@
+# This file contains the basic atomic information of the ionization
+# and excitation states considered in the stellar atmosphere model.
+
+# Ionization states
+#State		Ion. Energy (eV)
+H-		    0.754
+HI		    13.598
+HII		    0.000
+HeI		    24.587
+HeII		    54.418
+HeIII		    0.000		
+
+# Excitation states
+#State      Level	   Exc. Energy (eV)   Weight
+H-		1		0.000		1
+HI		1		0.000		2
+HI		2		10.199		8
+HI		3		12.088		18
+HI		4		12.749		32
+HII		1		0.000		1
+HeI		1		0.000		1
+HeI		2		19.820		3
+HeI		3		20.616		1
+HeI		4		20.964		9
+HeI		5		21.218		3
+HeII		1		0.000		2
+HeII		2		40.813		8
+HeIII		1		0.000		1
